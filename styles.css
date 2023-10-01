@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+  transition: all 0.5s ease;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 8rem;
+}
+nav img {
+  height: 4rem;
+}
+nav li {
+  list-style: none;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-left: 2rem;
+  color: #212121;
+  opacity: 70%;
+}
+nav span {
+  padding: 5px;
+  background-color: rgba(81, 24, 205, 0.1803921569);
+  color: #5118CD;
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+nav li:hover {
+  color: #5118CD;
+  cursor: pointer;
+}
+nav #btn-section {
+  display: flex;
+  gap: 2rem;
+}
+nav #btn-section #sign-up {
+  padding: 20px 30px;
+  background-color: #5118CD;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+nav #btn-section #sign-up:hover {
+  transform: translateY(-5px) scale(103%);
+}
+nav #btn-section button:hover {
+  transform: translateY(-5px) scale(103%);
+}
+nav #btn-section #login {
+  padding: 20px 30px;
+  background-color: #f1f9ff;
+  border: none;
+  color: #212121;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+nav #btn-section #login:hover {
+  transform: translateY(-5px) scale(103%);
+}
+
+main {
+  margin: 6rem 8rem;
+}
+main #main-wrapper {
+  display: flex;
+}
+main h1 {
+  font-size: 5.45rem;
+  color: #0E073A;
+  margin-bottom: 2rem;
+}
+main p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #212121;
+}
+main #create-btn {
+  padding: 20px 30px;
+  background-color: #5118CD;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+main #create-btn:hover {
+  transform: translateY(-5px) scale(103%);
+}
+main #talk-btn {
+  padding: 20px 30px;
+  background-color: #f1f9ff;
+  border: none;
+  color: #212121;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  background-color: white;
+  color: #5118CD;
+  text-decoration: underline;
+}
+main #talk-btn:hover {
+  transform: translateY(-5px) scale(103%);
+}
+main #hero-btn {
+  display: flex;
+  gap: 2rem;
+}
+main #hero-text {
+  width: 50%;
+}
+main #hero-img {
+  width: 50%;
+  position: relative;
+}
+main #hero-img img {
+  position: relative;
+  width: 100%;
+}
+
+#cookie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  width: 600px;
+  padding: 20px 25px;
+  position: fixed;
+  bottom: 5%;
+  left: 30%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0E073A;
+  background-color: rgba(255, 255, 255, 0.456);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+}
+#cookie span {
+  color: #5118CD;
+  font-weight: 600;
+}
+#cookie button {
+  padding: 5px 10px;
+  background-color: #0E073A;
+  font-family: "Sora";
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#why_Bud {
+  margin: 6rem 8rem;
+  line-height: 2;
+}
+#why_Bud #question {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+#why_Bud .col1, #why_Bud .col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+#why_Bud .col2 {
+  position: relative;
+  top: -80px;
+  z-index: -99;
+}
+#why_Bud #card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card1 {
+  background-color: #F1F9FF;
+}
+
+.card2 {
+  background-color: #f9f4E9;
+}
+.card2 span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.why {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 2rem 3rem;
+  gap: 2rem;
+}
+.why img {
+  width: 100%;
+}
+
+.card3 {
+  background-color: #f9f4E9;
+}
+.card3 span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card2 {
+  background-color: #ECF5FF;
+}
+
+.card4 {
+  background-color: #F8FAFF;
+}
+
+#ourGoalMain {
+  display: flex;
+  justify-content: center;
+}
+#ourGoalMain #ourGoal {
+  background-color: #5118CD;
+  padding: 20px 10px;
+  width: 80vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+#ourGoalMain #ourGoal img {
+  width: 30%;
+}
+#ourGoalMain #text {
+  margin-left: 3rem;
+}
+#ourGoalMain #text h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+#ourGoalMain #text p {
+  font-size: 0.92rem;
+  font-weight: 300;
+  color: white;
+  line-height: 2;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F8FAFF;
+  padding: 10px 0px;
+}
+#cards img {
+  height: 30%;
+}
+#cards #credCard {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 12rem;
+}
+
+#solveSection {
+  display: flex;
+  flex-direction: column;
+  align-items: column;
+  text-align: center;
+  background-color: #5118CD;
+  padding: 7rem 50px;
+}
+#solveSection #solve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+}
+#solveSection #solve h1 {
+  font-size: 2rem;
+}
+#solveSection #solve p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  max-width: 60vw;
+}
+#solveSection #solve .btns #pry {
+  margin-right: 1rem;
+  padding: 20px 30px;
+  background-color: #5118CD;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  background-color: #6932e0;
+}
+#solveSection #solve .btns #pry:hover {
+  transform: translateY(-5px) scale(103%);
+}
+#solveSection #solve .btns #sec {
+  padding: 20px 30px;
+  background-color: #f1f9ff;
+  border: none;
+  color: #212121;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+#solveSection #solve .btns #sec:hover {
+  transform: translateY(-5px) scale(103%);
+}/*# sourceMappingURL=styles.css.map */
